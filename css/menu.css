@@ -1,0 +1,25 @@
+header div  {
+    content: ' ';
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    position: relative;
+}
+header div::before{
+    position: absolute;
+    content: ' ';
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    top: -250%;
+    
+}
+header div::after{
+    position: absolute;
+    content: ' ';
+    width: 60px;
+    height: 5px;
+    background-color: white;
+    bottom: -250%;
+    
+}

@@ -1,0 +1,35 @@
+.control{
+    position: absolute;
+   top: 5%;
+   left: 0;
+   right: 0;
+   justify-content:  space-around;
+   width: 100%;
+   color: #bb8217;
+
+   
+}
+.control .back10:after{
+    content: '\25C0';
+    
+    
+    
+}
+.control .play{
+    
+    font-size: 1.5em;
+    transform: translate(44%,-7%);   
+}
+
+.control .reset{
+    font-size: 3em;
+    transform: translate(-46%, -40%);
+    
+}
+
+.control .advence10::before{
+    content: "\25B6";
+}
+.control .advence10 , .control .back10 , .control .play , .control .pause, .control .reset{
+   cursor: pointer;
+}

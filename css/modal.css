@@ -1,0 +1,38 @@
+.none {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal article {
+    width: 50%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    z-index: 100;
+}
+
+.modal .close {
+    position: fixed;
+    top: 10%;
+    right: 20%;
+    font-size: 3em;
+    color: white;
+    transform: rotate(45deg);
+}
+.modal  iframe {
+    width: 70%;
+    height: 650px;
+}
